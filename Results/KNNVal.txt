@@ -1,0 +1,106 @@
+-------------------- TRAIN --------------------
+Confusion Matrix
+15	7 	14	5 	9 	8 	7 	7 	5 	4 
+0 	3 	0 	0 	0 	0 	0 	1 	0 	0 
+0 	0 	3 	0 	1 	0 	0 	0 	0 	1 
+0 	0 	2 	5 	0 	1 	1 	0 	0 	0 
+1 	0 	0 	1 	0 	1 	2 	0 	0 	0 
+0 	5 	0 	2 	0 	8 	1 	3 	0 	1 
+0 	1 	0 	2 	0 	2 	2 	0 	0 	2 
+0 	0 	0 	0 	0 	0 	2 	0 	0 	0 
+18	18	16	16	15	16	16	19	30	13
+3 	4 	3 	7 	5 	3 	7 	9 	1 	3 
+
+Precision
+	talk_politics_mideast:   	0.18518518518518517
+	comp_sys_mac_hardware:   	0.75
+	rec_sport_baseball:      	0.6
+	rec_sport_hockey:        	0.5555555555555556
+	talk_politics_misc:      	0.0
+	comp_windows_x:          	0.4
+	comp_graphics:           	0.2222222222222222
+	comp_sys_ibm_pc_hardware:	0.0
+	talk_politics_guns:      	0.1694915254237288
+	talk_religion_misc:      	0.06666666666666667
+
+Recall
+	talk_politics_mideast:   	0.40540540540540543
+	comp_sys_mac_hardware:   	0.07894736842105263
+	rec_sport_baseball:      	0.07894736842105263
+	rec_sport_hockey:        	0.13157894736842105
+	talk_politics_misc:      	0.0
+	comp_windows_x:          	0.20512820512820512
+	comp_graphics:           	0.05263157894736842
+	comp_sys_ibm_pc_hardware:	0.0
+	talk_politics_guns:      	0.8333333333333334
+	talk_religion_misc:      	0.125
+
+F1
+	talk_politics_mideast:   	0.2542372881355932
+	comp_sys_mac_hardware:   	0.14285714285714285
+	rec_sport_baseball:      	0.1395348837209302
+	rec_sport_hockey:        	0.2127659574468085
+	talk_politics_misc:      	0
+	comp_windows_x:          	0.27118644067796605
+	comp_graphics:           	0.0851063829787234
+	comp_sys_ibm_pc_hardware:	0
+	talk_politics_guns:      	0.2816901408450704
+	talk_religion_misc:      	0.08695652173913045
+
+Accuracy:	0.19327731092436976
+Precision:	0.2949121155053359
+Recall:		0.19109722070248386
+F1:			0.14743347584013647
+-------------------- VAL --------------------
+Confusion Matrix
+1	3	1	2	3	3	0	1	3	2
+0	0	1	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0
+1	0	0	1	0	0	0	1	0	0
+0	0	0	0	0	0	2	0	0	0
+0	4	1	0	0	1	2	0	0	0
+0	0	0	1	0	1	0	0	0	0
+0	0	0	0	0	0	1	0	0	0
+8	3	5	5	4	5	3	7	5	4
+0	0	2	1	1	0	2	1	1	1
+
+Precision
+	talk_politics_mideast:   	0.05263157894736842
+	comp_sys_mac_hardware:   	0.0
+	rec_sport_baseball:      	0.0
+	rec_sport_hockey:        	0.3333333333333333
+	talk_politics_misc:      	0.0
+	comp_windows_x:          	0.125
+	comp_graphics:           	0.0
+	comp_sys_ibm_pc_hardware:	0.0
+	talk_politics_guns:      	0.10204081632653061
+	talk_religion_misc:      	0.1111111111111111
+
+Recall
+	talk_politics_mideast:   	0.1
+	comp_sys_mac_hardware:   	0.0
+	rec_sport_baseball:      	0.0
+	rec_sport_hockey:        	0.1
+	talk_politics_misc:      	0.0
+	comp_windows_x:          	0.1
+	comp_graphics:           	0.0
+	comp_sys_ibm_pc_hardware:	0.0
+	talk_politics_guns:      	0.5555555555555556
+	talk_religion_misc:      	0.14285714285714285
+
+F1
+	talk_politics_mideast:   	0.06896551724137931
+	comp_sys_mac_hardware:   	0
+	rec_sport_baseball:      	0
+	rec_sport_hockey:        	0.15384615384615383
+	talk_politics_misc:      	0
+	comp_windows_x:          	0.11111111111111112
+	comp_graphics:           	0
+	comp_sys_ibm_pc_hardware:	0
+	talk_politics_guns:      	0.1724137931034483
+	talk_religion_misc:      	0.125
+
+Accuracy:	0.09574468085106383
+Precision:	0.07241168397183435
+Recall:		0.09984126984126984
+F1:			0.06313365753020925
